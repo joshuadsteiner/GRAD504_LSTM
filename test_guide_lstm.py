@@ -1,6 +1,10 @@
-# test_guide.py
+# test_guide_lstm.py
 
 # A module to centrally define the test phase information
+# in the format that the LSTM model requires.
+# Because the model uses a 12-mo rolling window, to forecast
+# for a single year requires a total time span of 24 months to be
+# fed to the model.
 
 ##################
 ####  TRAINING ###
